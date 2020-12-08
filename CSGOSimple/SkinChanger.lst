@@ -1,0 +1,71 @@
+Microsoft (R) Macro Assembler Version 14.28.29334.0	    12/08/20 02:26:33
+inline.asm						     Page 1 - 1
+
+
+				.686
+				.MODEL FLAT, C
+				.STACK
+ 00000000			.CODE
+
+ 00000000			handler proc
+ 00000000			handler endp
+				.safeseh handler
+inline.asm(8) : warning A4024:directive ignored without /safeseh switch
+
+ 00000000			GetPEB PROC
+				ASSUME FS:NOTHING
+ 00000000  67& 64: A1		mov eax, fs:[48]
+	   0030
+				ASSUME FS:ERROR
+ 00000005  C3			ret
+ 00000006			GetPEB ENDP
+
+ 00000006			GetTEB PROC
+				ASSUME FS:NOTHING
+ 00000006  67& 64: A1		mov eax, fs:[24]
+	   0018
+				ASSUME FS:ERROR
+ 0000000B  C3			ret
+ 0000000C			GetTEB ENDP
+				END 
+Microsoft (R) Macro Assembler Version 14.28.29334.0	    12/08/20 02:26:33
+inline.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00000400 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000000 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000000C Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+GetPEB . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000006 Public C
+GetTEB . . . . . . . . . . . . .	P Near	 00000006 _TEXT	Length= 00000006 Public C
+handler  . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000000 Public C
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000001h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+
+	   1 Warnings
+	   0 Errors

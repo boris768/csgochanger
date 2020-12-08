@@ -1,0 +1,11 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/SkinChanger/v15
+/build
+/builds
+/bin
+/CSGOSimple/*.cpp.PVS-Studio.*
+/.vs/SkinChanger/v16
+/CSGOSimple/2.ruleset

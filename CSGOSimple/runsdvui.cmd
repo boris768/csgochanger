@@ -1,0 +1,2 @@
+cd /d "C:\Users\Борис\source\repos\csgochanger\CSGOSimple" &msbuild "CSGOSimple.vcxproj" /t:sdvViewer /p:configuration="Debug" /p:platform="Win32" /p:SolutionDir="C:\Users\Борис\source\repos\csgochanger" 
+exit %errorlevel% 

@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{2a1c7839-78d2-424d-833a-7b1f8ce991f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hacks">
+      <UniqueIdentifier>{a12f77b2-4d38-4760-a86b-3ccc5e41286a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hacks">
+      <UniqueIdentifier>{cd7ea114-e506-4023-9bba-9306aec94b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SourceEngine">
+      <UniqueIdentifier>{f6183a1b-1ffa-4696-a210-7e1ec518c36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{bb490e34-899a-45b6-ac5b-35ff715a6877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ManualSEH">
+      <UniqueIdentifier>{92d61d46-62e6-4e28-ae32-a053315338ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ManualWinAPI">
+      <UniqueIdentifier>{5094e56e-9d55-4070-8c86-f3455301b944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{6261ab57-1204-4078-9301-99ce8e826149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base64">
+      <UniqueIdentifier>{2f25aca6-19f0-44d9-b150-f7cf1211f19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\advertising">
+      <UniqueIdentifier>{726e48aa-eec0-4afa-a416-24fe7a9d0eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\md5">
+      <UniqueIdentifier>{cb4b49e1-95cc-49e2-aa15-d7037fdad954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooks">
+      <UniqueIdentifier>{e5edd0f3-a32b-4383-b2a9-cae63dced495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CSProtobuf">
+      <UniqueIdentifier>{7e5e037e-992c-483d-aab4-1271aca41661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\protobufs">
+      <UniqueIdentifier>{6c3d50e4-39af-4ce8-af59-d5b61a2fd5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\win32">
+      <UniqueIdentifier>{ea270bff-91bc-438e-a5a1-9e110330d344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minhook">
+      <UniqueIdentifier>{9060972d-e253-46b3-98f7-ac509077e375}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\CRC.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Vector.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Vector2D.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Vector4D.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\VMatrix.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\SDK.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\DX9\imgui_impl_dx9.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="NetvarManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\Convar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\UtlString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceEngine\CInput.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinChanger.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyValues.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Skins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IBaseWorldModel.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="IBaseViewModel.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Stickers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ISurface.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGOStructs.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CMaterialReference.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggingSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCStrike15ItemSchema.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialSystem.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="font_resource.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="float_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualSEH\VEHtoSEH.cpp">
+      <Filter>Source Files\ManualSEH</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomWinAPI.cpp">
+      <Filter>Source Files\ManualWinAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerResource.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Source Files\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C_EconItemView.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CEconWearable.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="banner.cpp">
+      <Filter>Source Files\advertising</Filter>
+    </ClCompile>
+    <ClCompile Include="banner_downloader.cpp">
+      <Filter>Source Files\advertising</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="PresentHook.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProcHook.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetHook.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FindMDLHook.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStageNotifyHook.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FireEventClientSideHook.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FindOrAddFileNameHook.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VFTableHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LockCursorHook.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientState.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="nSequence.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvPropHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CUtlRBTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protobuffs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GCSteamMessages.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory_changer.cpp">
+      <Filter>Source Files\CSProtobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtoParse.cpp">
+      <Filter>Source Files\CSProtobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="cross_module_vmt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_custom.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\win32\imgui_impl_win32.cpp">
+      <Filter>ImGUI\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="ISteamHTTP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EconEntityListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="GetModelsForMap.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelInitPostEntity.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelShutdown.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug_ExceptionHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchEvents.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CCSCustomMaterialSwapManager.cpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\buffer.c">
+      <Filter>Header Files\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hook.c">
+      <Filter>Header Files\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\trampoline.c">
+      <Filter>Header Files\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde32.c">
+      <Filter>Header Files\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde64.c">
+      <Filter>Header Files\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPostFrame_ProcessIdleNoAction.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Options.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\CGlobalVarsBase.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\CHandle.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\CInput.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\ClientClass.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Color.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\CRC.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Definitions.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IAppSystem.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IBaseClientDll.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientEntity.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientEntityList.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientMode.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientNetworkable.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientRenderable.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientThinkable.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IClientUnknown.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IEngineTrace.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IHandleEntity.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IPanel.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\ISurface.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IVEngineClient.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\PlayerInfo.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\QAngle.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Recv.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\SDK.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Vector.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Vector2D.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Vector4D.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\VMatrix.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\DX9\imgui_impl_dx9.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="NetvarManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VFTableHook.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGOStructs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\IConVar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\ICvar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\Convar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\UtlMemory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\UtlString.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceEngine\UtlVector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IStudioRender.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfo.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IPhysicsSurfaceProps.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerResource.hpp">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrediction.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IMoveHelper.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\DX9\font_resource.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientState.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemAlloc.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyValues.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Skins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IFileSystem.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ILocalize.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaterialReference.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterialSystem.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterial.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseViewModel.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseWorldModel.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CEconWearable.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Stickers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEvent.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggingSystem.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CCStrike15ItemSchema.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ITextureDictionary.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="float_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinChanger.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualSEH\VEHtoSEH.h">
+      <Filter>Source Files\ManualSEH</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomWinAPI.h">
+      <Filter>Source Files\ManualWinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSteamNetworkingUtils.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Source Files\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="CCSWeaponVisualsDataProcessor.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="networkstringtabledefs.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="C_EconItemView.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="spsc_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSSteamAPIContext.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="IMDLCache.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="demoparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="banner.h">
+      <Filter>Source Files\advertising</Filter>
+    </ClInclude>
+    <ClInclude Include="banner_downloader.h">
+      <Filter>Source Files\advertising</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Source Files\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="md5_loc.h">
+      <Filter>Source Files\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="ISteamClient.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ISteamGameCoordinator.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompileTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngineSoundClient.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Inverntory.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvPropHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtlRBTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuffs\profile_info_changer.h">
+      <Filter>Header Files\protobufs</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuffs\ProtobuffMessages.h">
+      <Filter>Header Files\protobufs</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuffs.h">
+      <Filter>Header Files\protobufs</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuffs\ProtoParse.h">
+      <Filter>Header Files\protobufs</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuffs\inventory_changer.h">
+      <Filter>Header Files\protobufs</Filter>
+    </ClInclude>
+    <ClInclude Include="cross_module_vmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\win32\imgui_impl_win32.h">
+      <Filter>ImGUI\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStrW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fnv_hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISteamHTTP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EconEntityListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json\allocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\assertions.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_tool.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\version.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameTypes.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Crates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameUI.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIEngineSource2.h">
+      <Filter>Header Files\SourceEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="matchmaking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCSCustomMaterialSwapManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\include\MinHook.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\buffer.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\trampoline.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde32.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde64.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\pstdint.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table32.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table64.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="json\json_valueiterator.inl">
+      <Filter>json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="inline.asm">
+      <Filter>Source Files\ManualWinAPI</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
